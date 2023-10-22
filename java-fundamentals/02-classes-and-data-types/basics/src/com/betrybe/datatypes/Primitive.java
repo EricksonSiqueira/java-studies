@@ -11,6 +11,14 @@ public class Primitive {
         long l = 1000000000000L; // the L in the end says that this is a long
         long l2 = 100000000; // this will be like a int
 
+        char letterC = 'C';
+        char letterC2 = 'c';
+
+        boolean isValid = true;
+
+        System.out.println(letterC == letterC2);
+        System.out.println(isValid);
+
         System.out.println("The most basic type " + b); // -128-127;
         System.out.println("Short " + s); // -32768-32767;
         System.out.println("Int " + i); // --2.147.483.648--2.147.483.647;
